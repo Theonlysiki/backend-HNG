@@ -20,7 +20,7 @@ app.get('/endpoint', (req, res) => {
         current_day: currentDay,
         utc_time: utcTime,
         track: track,
-        github_file_url: "https://github.com/theonlysiki/backend-HNG/stage1.js",
+        github_file_url: "https://github.com/Theonlysiki/backend-HNG/blob/main/stage1.js",
         github_repo_url: "https://github.com/theonlysiki/backend-HNG",
         status_code: 200
     };
