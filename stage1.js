@@ -6,7 +6,7 @@ const app = express();
 // Update the port to use the environment variable or default to 3000
 const PORT = process.env.PORT || 3000;
 
-app.get('/endpoint', (req, res) => {
+app.get('/api', (req, res) => {
     const slackName = req.query.slack_name;
     const track = req.query.track;
 
