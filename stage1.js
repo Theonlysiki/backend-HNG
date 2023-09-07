@@ -15,7 +15,7 @@ app.get('/api', (req, res) => {
     }
 
     const currentDay = moment.utc().format('dddd');
-    const utcTime = moment.utc().toISOString();
+    const utcTime = moment.utc().format('YYYY-MM-DDTHH:mm:ss[Z]');
 
     const response = {
         slack_name: slackName,
